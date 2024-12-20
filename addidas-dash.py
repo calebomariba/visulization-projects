@@ -1,3 +1,18 @@
+"""_summary_
+    This module creates an interactive sales dashboard for Adidas using Streamlit, Plotly, and Pandas.
+    The dashboard includes various visualizations such as bar charts, line charts, and treemaps to display sales data.
+    Users can view and download summarized sales data by retailer, month, state, and region.
+    Functions:
+        format_sales(value): Formats sales values into a readable string with 'Lakh' as the unit.
+    Data:
+        df: DataFrame containing sales data read from 'Adidas.xlsx'.
+        result: DataFrame containing monthly sales data.
+        result1: DataFrame containing total sales and units sold by state.
+        treemap: DataFrame containing total sales by region and city.
+    
+    Returns:
+        _type_: _description_
+    """ 
 import datetime
 import pandas as pd
 import plotly.express as px
