@@ -1,3 +1,26 @@
+"""_summary_
+Superstore Dashboard Application
+This module provides an interactive dashboard for exploring and analyzing sales data from a Superstore dataset.
+It uses Streamlit for the web interface, Plotly for visualizations, and Pandas for data manipulation.
+Functions:
+    - st.set_page_config: Sets the configuration for the Streamlit page.
+    - st.title: Sets the title of the Streamlit page.
+    - st.markdown: Adds custom CSS styling to the Streamlit page.
+    - st.file_uploader: Allows users to upload a file.
+    - st.date_input: Allows users to select start and end dates for filtering data.
+    - st.sidebar.header: Adds a header to the sidebar.
+    - st.sidebar.multiselect: Allows users to filter data by Region, State, and City.
+    - st.subheader: Adds subheaders to different sections of the dashboard.
+    - st.plotly_chart: Displays Plotly charts in the Streamlit app.
+    - st.expander: Creates expandable sections for viewing data and downloading CSV files.
+    - st.download_button: Adds buttons for downloading data as CSV files.
+    - px.bar: Creates a bar chart for category-wise sales.
+    - px.pie: Creates pie charts for region-wise and segment-wise sales.
+    - px.line: Creates a line chart for time series analysis.
+    - px.treemap: Creates a treemap for hierarchical view of sales.
+    - px.scatter: Creates a scatter plot for relationship between sales and profits.
+    - ff.create_table: Creates a summary table using Plotly Figure Factory.
+"""
 import os
 import warnings
 import pandas as pd
